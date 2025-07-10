@@ -1,0 +1,22 @@
+<!-- File Name: res/xml/accessibility_service_config.xml -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:settingsActivity="com.example.digitalshield.MainActivity"
+    />
+
+<!-- File Name: res/xml/device_admin_policies.xml -->
+<device-admin>
+    <uses-policies>
+        <!-- Yahan aap aur policies add kar sakte hain, abhi ke liye khali hai -->
+    </uses-policies>
+</device-admin>
+
+<!-- File Name: res/values/strings.xml -->
+<resources>
+    <string name="app_name">Digital Shield</string>
+    <string name="accessibility_service_description">Digital Shield ko websites aur keywords block karne ke liye is permission ki zaroorat hai.</string>
+</resources>

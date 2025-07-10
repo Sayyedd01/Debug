@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Shield Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Block karne ke liye keyword daalein"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAddKeyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keyword Jodein"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked Keywords:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#EEEEEE"
+        android:minHeight="100dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/buttonEnableAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessibility Service On Karein"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonEnableAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uninstall Protection On Karein" />
+
+</LinearLayout>
